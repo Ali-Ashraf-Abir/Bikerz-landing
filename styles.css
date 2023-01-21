@@ -1,0 +1,60 @@
+
+
+.clients-image{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.rows{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    margin: 20px;
+}
+
+footer{
+    background-color: #0b0d17;
+    color:white
+}
+
+@media only screen and (max-width:760px){
+    .login-btn{
+        margin-left: 0px;
+    }
+    .faq{
+        width:100%;
+    }
+    .rows{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
